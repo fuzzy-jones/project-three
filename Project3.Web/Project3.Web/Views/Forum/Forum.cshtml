@@ -1,0 +1,115 @@
+@using Project3.Web.Models.GameModels
+@model List<PlatformModel>
+
+  <br>
+  <div class="container">
+    <div class="row">
+      <h2 class="welcome">GENERAL FORUM</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 forumMenu">
+        <a href="../Forum/Forum" class="forumTitle">GENERAL</a>
+        <br>
+        <a href="" class="forumTitle">REVIEW</a>
+        <br>
+        <p class="forumTitle">PLATFORMS</p>
+        <ul id="platformList">
+            <!-- @foreach (var platform in Model)
+            {
+            <li>
+                <a class="platform" href="" id="@platform.PlatformId">@platform.Name</a>
+            </li>
+            } -->
+            <a class="platform" href="">Atari 2600</a><br>
+              <a class="platform" href="">NES</a><br>
+              <a class="platform" href="">Sega Genesis</a><br>
+              <a class="platform" href="">Gameboy</a><br>
+              <a class="platform" href="">Super Nintendo</a><br>
+              <a class="platform" href="">Neo-Geo</a><br>
+              <a class="platform" href="">Playstaion</a><br>
+              <a class="platform" href="">Nintendo 64</a><br>
+              <a class="platform" href="">Sega Saturn</a><br>
+              <a class="platform" href="">Dreamcast</a><br>
+          </ul>
+      </div>
+ 
+      <div class="col-sm-9">
+        <table class="table">
+          <thead>
+            <tr>
+              <th id="tableTop" class="topRow">THREADS<button id="addThread" type="button" class="btn btn-primary" data-toggle="modal" data-target="#newThreadModal">NEW THREAD</button></th>
+              <th id="lightGreen" class="align topRow">AUTHOR</th>
+              <th id="lightGreen2" class="align topRow">CREATED</th>
+              <th id="lightGreen3" class="align topRow">LATEST ACTIVITY</th>
+            </tr>
+          </thead>
+          <tbody id="displayThreads">
+            <!-- these tr's will eventually be removed for dynamic ones from the GET in Forum.js file -->
+            <tr>
+              <td><a class="artTitle" href="../Forum/UserPost">DONKEY KONG SUCKS!</a></td>
+              <td class="align">Luigi</td>
+              <td class="align">4:43pm</td>
+              <td class="align">4:43pm</td>
+            </tr>
+            <tr>
+            <td><a class="artTitle" href="../UserPost/UserPost">I hope they don't bring back Duck Hunt!</a></td>
+            <td class="align">D-Duck</td>
+            <td class="align">3:04am</td>
+            <td class="align">4:53pm</td>
+            </tr>
+            <tr>
+              <td><a class="artTitle" href="#">Ever since Bitcoin came on the scene, those Korok seeds just aren't worth what they used to be.</a></td>
+              <td class="align">Link</td>
+              <td class="align">11:21am</td>
+              <td class="align">1:03pm</td>
+            </tr>
+            <tr>
+              <td>
+                <a class="artTitle" href="#">No one appreciates the simple things anymore.</a>
+              </td>
+              <td class="align">Pong</td>
+              <td class="align">7:12m</td>
+              <td class="align">7:43am</td>
+            </tr>
+            <tr>
+              <td>
+                <a class="artTitle" href="#">I know people only pick me In Super Mario Bros. 2 becuase I can hover for long distances after I squat and start to flash. </a>
+              </td>
+              <td class="align">Princess Peach</td>
+              <td class="align">8:41pm</td>
+              <td class="align">4:59am</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+  </div>
+  </div>
+
+<div class="modal fade" id="newThreadModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">START A NEW THREAD</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <form action="/action_page.php">
+          THREAD TITLE:
+          <br>
+          <input class="threadTitle" class="form-control" type="text" name="ThreadTitle" id="modalThreadTitle">
+          <br> POST:
+          <br>
+          <textarea class="threadBody" class="form-control" type="text" name="Post" id="modalPost"></textarea>
+          <br>
+          <br>
+        </form>
+        
+        <div class="modal-footer">
+          <button id="submitThread" type="submit" class="btn btn-primary" data-dismiss="modal">POST</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

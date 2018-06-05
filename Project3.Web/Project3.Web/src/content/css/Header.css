@@ -1,0 +1,232 @@
+
+.container {
+  margin: 0px;
+}
+
+  .sticky {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+  }
+  
+  .page-header {
+    margin-top: 5px;
+    margin-left: -20px;
+    height: 250px;
+    background-color: #2b2a2a;
+    border-style: solid;
+    border-width: 30px 20px 20px 20px;
+    border-color:  #f0ede1;
+    border-radius: 5px;
+    font-family: 'Audiowide', cursive;
+  }
+  
+  #arrows {
+    height: 140px;
+    width: 140px;
+    margin-top: 38px;
+    
+    margin-left: 13px;
+  }
+
+  #middleArea {
+    padding: 0px;
+  }
+  
+  .middle {
+    height:27px;
+    width: 270px;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 0px 11px 11px 11px;
+    padding: 5px; 
+    background-color: rgb(163, 152, 136);
+  }
+  
+#lastMiddle {
+  height: 25px;
+}
+
+  .noFcn {
+    color: red;
+    margin-left: -10px;
+    padding: 0px;
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: -6px;
+  }
+  
+  #select {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #start {
+    margin-left: -30px;
+    margin-bottom: 20px;
+  }
+  
+  #lrg {
+    height: 50px;
+    background-color: rgb(233, 240, 212);
+    border-style: double;
+    border-color: white;
+    border-radius: 7px;
+    border-width: 7px;
+  }
+  
+  .blkButtons{
+    height: 24px;
+    width: 90px;
+    margin-top: 0px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color: black;
+  }
+  
+  h3 {
+    text-align: left;
+    color: red;
+    margin-left: 5px;
+    margin-top: 40px;
+  }
+  
+  #redBtnDiv {
+    align-content: left;
+    margin-top: 30px;
+    margin-left: 5px;
+    
+  }
+
+  #forumsBtn {
+    background-color:  #f0ede1;
+    padding: 10px;
+    margin: 10px 10px 0px 0px;
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+  }
+  
+  #userBtn {
+    background-color:  #f0ede1;
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+  }
+  
+  .redButton {
+    height: 90px;
+    width: 90px;
+    /* margin-top: -2px; */
+    margin-left: 0px;
+  }
+  
+  .redButton:hover { 
+    transform: scale(1.1);
+  }
+  
+  #forums {
+    font-size: 10px;
+    color: red;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 3px;
+  }
+  
+  #user {
+    font-size: 10px;
+    color: red;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 3px;
+  }
+  
+  .dropbtn {
+      background-color: #f8edc6;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+  }
+  
+  .userBtn:hover, .userBtn:focus {
+      background-color: black;
+  }
+  
+  .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+  
+  .dropdown-content {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: none;
+    position: absolute;
+    background-color: black;
+    /* max-width: 100px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+      color: red;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: seashell;
+  }
+
+  .dropdown-content #logoutBtn:hover {
+    background-color: seashell;
+  }
+  
+  #userDrpDown {
+    margin-left: 5px;
+  }
+  
+  #logoutBtn {
+    color: red;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: black;
+    border: none;
+  }
+
+  .show {
+    display:block;
+  }
+  
+  
+  
+  #list {
+    border: 1px solid black;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  
+  table {
+    border: none;
+    padding: 10px;
+  }
+  
+  #User {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  #comment {
+    height: 112px;
+    border: 1px solid black;
+    padding: 10px;
+  }

@@ -1,0 +1,12 @@
+c:\Users\Fuzzy\Desktop\Project3\Project3.Web\Project3.Web\bin\Debug\netcoreapp2.0\Project3.Web.deps.json
+c:\Users\Fuzzy\Desktop\Project3\Project3.Web\Project3.Web\bin\Debug\netcoreapp2.0\Project3.Web.runtimeconfig.json
+c:\Users\Fuzzy\Desktop\Project3\Project3.Web\Project3.Web\bin\Debug\netcoreapp2.0\Project3.Web.runtimeconfig.dev.json
+c:\Users\Fuzzy\Desktop\Project3\Project3.Web\Project3.Web\bin\Debug\netcoreapp2.0\Project3.Web.dll
+c:\Users\Fuzzy\Desktop\Project3\Project3.Web\Project3.Web\bin\Debug\netcoreapp2.0\Project3.Web.pdb
+c:\Users\Fuzzy\Desktop\Project3\Project3.Web\Project3.Web\obj\Debug\netcoreapp2.0\Project3.Web.csprojAssemblyReference.cache
+c:\Users\Fuzzy\Desktop\Project3\Project3.Web\Project3.Web\obj\Debug\netcoreapp2.0\Project3.Web.csproj.CoreCompileInputs.cache
+c:\Users\Fuzzy\Desktop\Project3\Project3.Web\Project3.Web\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+c:\Users\Fuzzy\Desktop\Project3\Project3.Web\Project3.Web\obj\Debug\netcoreapp2.0\Project3.Web.AssemblyInfoInputs.cache
+c:\Users\Fuzzy\Desktop\Project3\Project3.Web\Project3.Web\obj\Debug\netcoreapp2.0\Project3.Web.AssemblyInfo.cs
+c:\Users\Fuzzy\Desktop\Project3\Project3.Web\Project3.Web\obj\Debug\netcoreapp2.0\Project3.Web.dll
+c:\Users\Fuzzy\Desktop\Project3\Project3.Web\Project3.Web\obj\Debug\netcoreapp2.0\Project3.Web.pdb

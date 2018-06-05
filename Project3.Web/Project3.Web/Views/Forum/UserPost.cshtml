@@ -1,0 +1,192 @@
+<!-- <!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  <link rel="stylesheet" href="UserPost.css">
+  <link rel="stylesheet" href="Menu.css">
+  <title>Post Posts</title>
+</head>
+
+<body> -->
+
+  <div class="container">
+    <div class="newThread" class="row">
+      <div class="col-sm-5">
+        <h2 class="currentThread">DONKEY KONG SUCKS!</h2>
+      </div>
+      <div class="col-sm-2 buttonCol">
+        <button id="addPost" type="button" class="btn btn-primary" data-toggle="modal" data-target="#commentModal">
+          ADD POST
+        </button>
+      </div>
+    </div>
+</div>
+<div class="modal fade" id="commentModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">ADD A POST</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <div class="modal-body">
+            <textarea class="postBody" id="newPost" type="text" placeholder="ADD YOUR POST HERE" name="Post"></textarea>
+        </div>
+  
+        <div class="modal-footer">
+          <button id="submitPost" type="submit" class="btn btn-primary" data-dismiss="modal">POST</button>
+        </div>
+  
+      </div>
+    </div>
+</div>
+
+
+<div class="container">
+<div class="col-lg-2">
+    <div class="col-sm-12 forumMenu sticky">
+        <a href="../Forum/Forum" class="forumTitle">GENERAL</a>
+        <br>
+        <a href="" class="forumTitle">REVIEW</a>
+        <br>
+        <p class="forumTitle">PLATFORMS</p>
+        <ul>
+           <a class="platform" href="">Atari 2600</a>
+              <br>
+              <a class="platform" href="">NES</a>
+              <br>
+              <a class="platform" href="">Sega Genesis</a>
+              <br>
+              <a class="platform" href="">Gameboy</a>
+              <br>
+              <a class="platform" href="">Super Nintendo</a>
+              <br>
+              <a class="platform" href="">Neo-Geo</a>
+              <br>
+              <a class="platform" href="">Playstaion</a>
+              <br>
+              <a class="platform" href="">Nintendo 64</a>
+              <br>
+              <a class="platform" href="">Sega Saturn</a>
+              <br>
+              <a class="platform" href="">Dreamcast</a>
+              <br>
+  
+        </ul>
+        
+      </div>
+</div>
+
+<div class="col-sm-10" id="displayPosts">
+  <div class="row">
+    <div class="col-sm-2 userInfoCard commentComponent">
+        <div class="card">
+          <img class="card-img-top" src="https://vignette.wikia.nocookie.net/disney/images/d/d5/Donaldstar_1600.jpg/revision/latest?cb=20100629001545"
+            alt="Card image">
+          <div class="card-body">
+            <h5 class="card-title">D-Duck</h5>
+            <p class="card-text">Member of the kingdom since: 2017</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-9 userComment">
+        <p class="comment">I hate to turn on another member of the animal kingdom, but lets get real, we all know what happened after he did that thing to you know who, you know when... I can't even talk about it. 
+        </p><br>
+        <!-- <img role="button" class="up" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJbgvalDYmoSjhnLiAOos5FsxisuX6TUSWgIG7zPIB62NM74A9">
+        <img role="button" class="down" src="https://vignette.wikia.nocookie.net/epicrapbattlesofhistory/images/9/92/Mario_thumbs_down.png/revision/latest?cb=20140623232325"> -->
+      </div>
+    </div>
+  <div class="row">
+        <div class="col-sm-2 userInfoCard commentComponent">
+          <div class="card">
+            <img class="card-img-top" src="https://i.redd.it/rs7ew3qulzny.png"
+              alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title">The_first_Luigi</h5>
+              <p class="card-text">Member of the kingdom since: 2018</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-9 userComment">
+          <p class="comment">He gets on my nerves!  Why can't he just leave us alone. He's so uncivilized. I had him as a house guest once... banana peels everywhere, swinging from ceiling fans and throwing all barrels in my wine cellar. 
+          </p><br>
+          <!-- <img role="button" class="up" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJbgvalDYmoSjhnLiAOos5FsxisuX6TUSWgIG7zPIB62NM74A9">
+          <img role="button" class="down" src="https://vignette.wikia.nocookie.net/epicrapbattlesofhistory/images/9/92/Mario_thumbs_down.png/revision/latest?cb=20140623232325"> -->
+        </div>  
+  </div>
+  <div class="row">
+      <div class="col-sm-2 userInfoCard commentComponent">
+        <div class="card">
+          <img class="card-img-top" src="https://vignette.wikia.nocookie.net/erbwikidatabase/images/3/30/1907632-new_super_mario_bros._wii_toad-1-.png/revision/latest?cb=20131012211006"
+            alt="Card image">
+          <div class="card-body">
+            <h5 class="card-title">Toadie</h5>
+            <p class="card-text">Member of the kingdom since: 2017</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-9 userComment">
+        <p class="comment">Yeah, the way he treated that little fella with him... it wasn't right. We little guys have to stick together. It's a jungle out there!
+        </p><br>
+      </div>  
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+<!-- <script>
+  $(document).ready(function () {
+    $("addPost").click(function () {
+      $("commentModal").modal();
+    });
+  });
+  
+  var post = function() {
+    function init() {
+        initEventHandlers();
+    }
+
+    function initEventHandlers() {
+        submitPost();
+    }
+    
+    function submitPost() {
+        $("#submitPost").on("click", function(event) {
+            event.preventDefault();
+
+            var newPost = {
+                Content: $("#newPost").val().trim()
+            };
+            
+            console.log(newPost);
+            
+            $("#displayPosts").append("<div class='row'>" + "<div class='col-sm-2 userInfoCard commentComponent'>" + "<div class='card'>" + "<img class='card-img-top' src='http://images6.fanpop.com/image/photos/37500000/Paper-Mario-the-super-mario-fan-club-37561055-500-500.jpg' alt='Card image'>" + "<div class='card-body'>" + "<h4 class='card-title'>"+ "MarioFan4ever" + "</h4>" + "<p class='card-text'>" + "Member of the kingdom since: 2018" + "</p></div></div></div>" + "<div class='col-sm-9 userComment'>" + "<p>" + newPost.Content + "</div>");
+
+        });
+    }
+
+    return {
+        init: init
+    }
+  }();
+
+  $(function() {
+      post.init();
+  });
+</script> -->
+
+  
